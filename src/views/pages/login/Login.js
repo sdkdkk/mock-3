@@ -77,9 +77,7 @@ const Login = () => {
             history('/dashboard')
             localStorage.setItem('email', inpval.email)
             localStorage.setItem('password', inpval.password)
-          } else {
-            alert('plz enter valid email and password')
-          }
+          } 
         })
       }
     }
